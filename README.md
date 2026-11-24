@@ -20,3 +20,5 @@ If you see '64 bytes from 100.89.176.22', you're good.
 ## **FAQ**
 - What if I don't see '64 bytes from 100.89.176.22'?
     - Talk to me
+- Any other questions
+    - Talk to me
