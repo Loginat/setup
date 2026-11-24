@@ -1,8 +1,7 @@
 # so, you're setting up tailscale to connect to the mc server
 
 ## **Process**
-- Go to tailscale.com
-- https://tailscale.com/
+- Go to https://tailscale.com/
 Click on "Get Started!", it's in the top right corner under the black
 Make an account (just use the google sign in)
 Once you get to this menu, you're done making your account
