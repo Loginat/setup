@@ -7,7 +7,7 @@
 - Once you get to this menu, you're done making your account
 - Go to https://tailscale.com/download/ and select your operating system. Unless your name is John Henri Cartelli, you're picking Windows.
 - Download and run the file it gives you
-    - If you're having issues with this step, please refer to [This Link](https://tailscale.com/docs/install/windows) before asking me.
+    - If you're having issues with this step, please refer to [this Link](https://tailscale.com/docs/install/windows) before asking me.
 - Once Tailscale has been installed on your PC, look in your system tray for the icon for Tailscale. Once you find it, click on it.
 - The system tray is the stuff in the bottom right corner of your screen, where your clock and other stuff is
 - Once you have verified Tailscale is running, click the link below to add the MC Server to your Tailnet
