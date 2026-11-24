@@ -1,6 +1,6 @@
 # so, you're setting up tailscale to connect to the mc server
 
-## *Process*
+## **Process**
     - Go to tailscale.com
         - https://tailscale.com/
     - Click on "Get Started!", it's in the top right corner under the black
@@ -19,7 +19,7 @@
         - To access terminal on Mac, press 'ctrl+alt+t'
     - If you see '64 bytes from 100.89.176.22', you're good.
     
-## *FAQ*
+## **FAQ**
     - This will be updated as people fuck up their installations and ask me questions.
     - What if I don't see '64 bytes from 100.89.176.22'?
         - Talk to me
