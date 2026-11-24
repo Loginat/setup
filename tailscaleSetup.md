@@ -59,23 +59,10 @@ Once you install Tailscale on a second device and sign in with the **same accoun
 
 A **server** is a computer that stays on and shares things with your other devices, such as files, a website, or an app. Adding it to your tailnet lets you reach it from anywhere, privately and securely, without exposing it to the public internet.
 
-> **Tip:** The steps below are a general overview. For the exact instructions for your server, use the link below.
->
-> **[the link](https://login.tailscale.com/admin/invite/UPaeQqRA9bLEW5QdtbJF11)**
-
 ### Step by step
 
-1. **Get to your server.** Sit at the server or connect to it the way you normally do.
-2. **Install Tailscale on the server.** Go to **https://tailscale.com/download** from the server and choose the option that matches its operating system (for example, Linux, Windows, or macOS).
-3. **Start Tailscale.** Open the app, or if your server only has a text window (a "terminal"), follow the instructions on the download page for your system.
-4. **Sign in.** Tailscale will show you a web link. Open it in any browser, sign in with **the same account you used in Part 1**, and approve the server.
-5. **Confirm it joined.** Open the Tailscale app on your laptop or phone. You should now see your server in the list of devices.
-
-### Reaching your server
-
-After the server joins your tailnet, you can connect to it using the name shown in the Tailscale app (for example, `my-server`). Use that name wherever you would normally type the server's address.
-
----
+1. Click this link to add the server to your tailnet.
+    - **[the link](https://login.tailscale.com/admin/invite/UPaeQqRA9bLEW5QdtbJF11)**
 
 ## Troubleshooting
 
