@@ -18,7 +18,7 @@ title: tailscale
     - [MC Server Tailnet](https://login.tailscale.com/admin/invite/UPaeQqRA9bLEW5QdtbJF11)
 - After you add the machine to your Tailnet, verify that you are can connect to the MC Server by running the following command in your terminal
     - `ping 100.89.176.22`
-- To access terminal on Windows, press 'ctrl+r' and enter 'cmd' into the resulting pop-up.
+- To access terminal on Windows, press 'windows+r' and enter 'cmd' into the resulting pop-up.
 - To access terminal on Mac, press 'ctrl+alt+t'
 - If you see `64 bytes from 100.89.176.22`, you're good.
     
