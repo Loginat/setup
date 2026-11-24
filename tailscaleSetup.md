@@ -3,27 +3,107 @@ layout: default
 title: tailscale
 ---
 
-# so, you're setting up tailscale to connect to the mc server
+# Getting Started with Tailscale: A Simple Guide
 
-## **Process**
-- Go to [tailscale.com](https://tailscale.com/)
-- Click on "Get Started!", it's in the top right corner under the black
-- Make an account (just use the google sign in)
-- Once you get to this menu, you're done making your account
-- Go to [tailscale.com/download](https://tailscale.com/download/) and select your operating system. This guide assume you're using Windows lowk, if you're using Mac ask me whenever you have questions. If you use Linux, you should be able to do this w/o a guide.
-    - If you're having issues with this step, please refer to [this link](https://tailscale.com/docs/install/windows) before asking me.
-- Once Tailscale has been installed on your PC, look in your system tray for the icon for Tailscale. Once you find it, click on it.
-    - The system tray is the stuff in the bottom right corner of your screen, where your clock and other stuff is
-- Once you have verified Tailscale is running, click the link below to add the MC Server to your Tailnet
-    - [MC Server Tailnet](https://login.tailscale.com/admin/invite/UPaeQqRA9bLEW5QdtbJF11)
-- After you add the machine to your Tailnet, verify that you are can connect to the MC Server by running the following command in your terminal
-    - `ping 100.89.176.22`
-- To access terminal on Windows, press 'windows+r' and enter 'cmd' into the resulting pop-up.
-- To access terminal on Mac, press 'ctrl+alt+t'
-- If you see `64 bytes from 100.89.176.22`, you're good.
-    
-## **FAQ**
-- What if I don't see `64 bytes from 100.89.176.22`?
-    - Talk to me
-- Any other questions
-    - Talk to me
+## What is Tailscale?
+
+Tailscale is a free-to-start app that lets your devices (laptop, phone, tablet, home computer, servers) talk to each other safely over the internet, as if they were all on the same home network. No complicated settings are needed.
+
+Your group of connected devices is called a **tailnet**. Think of it as a private club for your devices: only the ones you invite can get in.
+
+---
+
+## Before You Begin
+
+You will need:
+
+- A computer or phone connected to the internet
+- An account with one of these services: **Google, Microsoft, Apple, or GitHub**. Tailscale uses one of these to sign you in, so you don't need to create a new password.
+- About 5 minutes
+
+---
+
+## Part 1: Install Tailscale on Your Device
+
+### On Windows
+
+1. Go to **https://tailscale.com/download** in your web browser.
+2. Click **Download Tailscale for Windows**.
+3. Open the downloaded file and follow the on-screen prompts. Click **Yes** or **Next** when asked.
+4. When it finishes, look for the Tailscale icon in the bottom-right corner of your screen (near the clock). Click it and choose **Log in**.
+5. A web page will open. Choose your sign-in method (Google, Microsoft, Apple, or GitHub) and sign in.
+6. Click **Connect** when asked to approve the device.
+
+### On Mac
+
+1. Open the **App Store** on your Mac and search for **Tailscale**, or go to **https://tailscale.com/download**.
+2. Click **Get**, then **Install**.
+3. Open the app. You'll see a small Tailscale icon at the top of your screen (the menu bar).
+4. Click the icon and choose **Log in**.
+5. Sign in with your Google, Microsoft, Apple, or GitHub account.
+6. If your Mac asks for permission to add a VPN configuration, click **Allow**. This is normal and required for Tailscale to work.
+
+---
+
+## Part 2: Check That It's Working
+
+1. Open the Tailscale app or click its icon.
+2. You should see a **Connected** status or a toggle switch turned **on**.
+3. You should also see your device's name in the list. This means it has joined your tailnet.
+
+Once you install Tailscale on a second device and sign in with the **same account**, the two devices can see each other automatically.
+
+---
+
+## Part 3: Add a Server to Your Tailnet
+
+A **server** is a computer that stays on and shares things with your other devices, such as files, a website, or an app. Adding it to your tailnet lets you reach it from anywhere, privately and securely, without exposing it to the public internet.
+
+> **Tip:** The steps below are a general overview. For the exact instructions for your server, use the link below.
+>
+> 👉 **[the link](https://login.tailscale.com/admin/invite/UPaeQqRA9bLEW5QdtbJF11)**
+### On iPhone or iPad
+
+1. Open the **App Store** and search for **Tailscale**.
+2. Tap **Get** to install it.
+3. Open the app and tap **Log in**.
+4. Sign in with your Google, Microsoft, Apple, or GitHub account.
+5. When your phone asks to add a VPN configuration, tap **Allow** and enter your passcode or Face ID. This is normal.
+
+### On Android
+
+1. Open the **Google Play Store** and search for **Tailscale**.
+2. Tap **Install**.
+3. Open the app and tap **Log in**.
+4. Sign in with your Google, Microsoft, Apple, or GitHub account.
+5. When asked to allow a VPN connection, tap **OK**.
+
+### Step by step
+
+1. **Get to your server.** Sit at the server or connect to it the way you normally do.
+2. **Install Tailscale on the server.** Go to **https://tailscale.com/download** from the server and choose the option that matches its operating system (for example, Linux, Windows, or macOS).
+3. **Start Tailscale.** Open the app, or if your server only has a text window (a "terminal"), follow the instructions on the download page for your system.
+4. **Sign in.** Tailscale will show you a web link. Open it in any browser, sign in with **the same account you used in Part 1**, and approve the server.
+5. **Confirm it joined.** Open the Tailscale app on your laptop or phone. You should now see your server in the list of devices.
+
+### Reaching your server
+
+After the server joins your tailnet, you can connect to it using the name shown in the Tailscale app (for example, `my-server`). Use that name wherever you would normally type the server's address.
+
+---
+
+## Troubleshooting
+
+| Problem | What to try |
+|---|---|
+| I can't sign in | Make sure you're using the same sign-in method every time (for example, always Google). |
+| My device says "Disconnected" | Open the Tailscale app and switch it on. |
+| I can't see my other device | Check that both devices are signed in with the **same account** and both are turned on and online. |
+| The server doesn't appear in my list | Make sure you approved the server on the sign-in web page, then refresh the device list. |
+
+---
+
+## Need More Help?
+
+- Tailscale's official help center: **https://tailscale.com/kb**
+- Contact me.
