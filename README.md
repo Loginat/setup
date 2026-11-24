@@ -5,8 +5,7 @@
 - Click on "Get Started!", it's in the top right corner under the black
 - Make an account (just use the google sign in)
 - Once you get to this menu, you're done making your account
-- Go to https://tailscale.com/download/ and select your operating system. Unless your name is John Henri Cartelli, you're picking Windows.
-- Download and run the file it gives you
+- Go to https://tailscale.com/download/ and select your operating system. This guide assume you're using Windows lowk, if you're using Mac ask me whenever you have questions. If you use Linux, you should be able to do this w/o a guide.
     - If you're having issues with this step, please refer to [this link](https://tailscale.com/docs/install/windows) before asking me.
 - Once Tailscale has been installed on your PC, look in your system tray for the icon for Tailscale. Once you find it, click on it.
 - The system tray is the stuff in the bottom right corner of your screen, where your clock and other stuff is
