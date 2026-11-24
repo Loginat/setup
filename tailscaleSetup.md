@@ -1,4 +1,6 @@
-<link rel="stylesheet" href="styles.css">
+---
+title: tailscale
+---
 
 # so, you're setting up tailscale to connect to the mc server
 
