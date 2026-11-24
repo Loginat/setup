@@ -1,7 +1,7 @@
 # so, you're setting up tailscale to connect to the mc server
 
 ## **Process**
-Go to tailscale.com
+- Go to tailscale.com
 - https://tailscale.com/
 Click on "Get Started!", it's in the top right corner under the black
 Make an account (just use the google sign in)
@@ -19,6 +19,6 @@ After you add the machine to your Tailnet, verify that you are can connect to th
 If you see '64 bytes from 100.89.176.22', you're good.
     
 ## **FAQ**
-This will be updated as people fuck up their installations and ask me questions.
+- This will be updated as people fuck up their installations and ask me questions.
 What if I don't see '64 bytes from 100.89.176.22'?
-- Talk to me
+Talk to me
