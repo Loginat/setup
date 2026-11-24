@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="styles.css">
+
 # so, you're setting up tailscale to connect to the mc server
 
 ## **Process**
@@ -15,10 +17,10 @@
     - `ping 100.89.176.22`
 - To access terminal on Windows, press 'ctrl+r' and enter 'cmd' into the resulting pop-up.
 - To access terminal on Mac, press 'ctrl+alt+t'
-- If you see '64 bytes from 100.89.176.22', you're good.
+- If you see `64 bytes from 100.89.176.22`, you're good.
     
 ## **FAQ**
-- What if I don't see '64 bytes from 100.89.176.22'?
+- What if I don't see `64 bytes from 100.89.176.22`?
     - Talk to me
 - Any other questions
     - Talk to me
