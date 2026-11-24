@@ -62,21 +62,6 @@ A **server** is a computer that stays on and shares things with your other devic
 > **Tip:** The steps below are a general overview. For the exact instructions for your server, use the link below.
 >
 > **[the link](https://login.tailscale.com/admin/invite/UPaeQqRA9bLEW5QdtbJF11)**
-### On iPhone or iPad
-
-1. Open the **App Store** and search for **Tailscale**.
-2. Tap **Get** to install it.
-3. Open the app and tap **Log in**.
-4. Sign in with your Google, Microsoft, Apple, or GitHub account.
-5. When your phone asks to add a VPN configuration, tap **Allow** and enter your passcode or Face ID. This is normal.
-
-### On Android
-
-1. Open the **Google Play Store** and search for **Tailscale**.
-2. Tap **Install**.
-3. Open the app and tap **Log in**.
-4. Sign in with your Google, Microsoft, Apple, or GitHub account.
-5. When asked to allow a VPN connection, tap **OK**.
 
 ### Step by step
 
