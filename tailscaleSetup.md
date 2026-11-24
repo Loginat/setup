@@ -61,7 +61,7 @@ A **server** is a computer that stays on and shares things with your other devic
 
 > **Tip:** The steps below are a general overview. For the exact instructions for your server, use the link below.
 >
-> 👉 **[the link](https://login.tailscale.com/admin/invite/UPaeQqRA9bLEW5QdtbJF11)**
+> **[the link](https://login.tailscale.com/admin/invite/UPaeQqRA9bLEW5QdtbJF11)**
 ### On iPhone or iPad
 
 1. Open the **App Store** and search for **Tailscale**.
